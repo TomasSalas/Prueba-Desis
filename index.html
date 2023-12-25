@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type="module" src="./JS/index.js"></script>
+  <link rel="stylesheet" href="./CSS/style.css"> 
+
+  <title>Prueba Desis</title>
+</head>
+<body>
+  <h2> FORMULARIO DE VOTACIÓN:</h2>
+  <form class="group">
+      <div class="form-group">
+        <label>Nombre y Apellido: </label>
+        <input id="nombreApellido">
+      </div>
+      <div class="form-group">
+        <label>Alias: </label>
+        <input id="alias">
+      </div>
+      <div class="form-group">
+        <label>Rut: </label>
+        <input id="rut">
+      </div>
+      <div class="form-group">
+        <label>Email: </label>
+        <input id="email">
+      </div>
+      <div class="form-group">
+        <label>Region: </label>
+        <select id="region"></select>
+      </div>
+      <div class="form-group">
+        <label>Comuna: </label>
+        <select id="comuna"></select>
+      </div>
+      <div class="form-group">
+        <label>Candidato: </label>
+        <select id="candidato"></select>
+      </div>
+      <div class="form-group-radio">
+        <label>Como se entero de nosotros: </label>
+        <div class="form-radio">
+          <input type="checkbox" id="web" value="Web"><label>Web</label>
+          <input type="checkbox" id="tv" value="TV"><label>Tv</label>
+          <input type="checkbox" id="redSocial" value="redSocial"><label>Redes Sociales</label>
+          <input type="checkbox" id="amigo" value="Amigo"><label>Amigo</label>
+        </div>
+      </div>
+      <button id="btn_votar" class="btn_votar"> Votar </button>
+  </form>
+</body>
+</html>
